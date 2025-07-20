@@ -95,6 +95,44 @@ export const myProjects = [
     ],
   },
   {
+  title: "Cocktail - Smooth & Animated UI",
+  desc: "Cocktail is an elegant and interactive drink-themed website that blends creative design with modern web technologies. Featuring lively scroll effects, parallax elements, and GSAP animations, it delivers an immersive browsing experience.",
+  subdesc:
+    "Crafted with React, Tailwind CSS, and GSAP, the Cocktail website showcases smooth transitions, stylish layouts, and delightful parallax animations to engage users with a visually rich experience.",
+  href: "https://cocktail-arfin.vercel.app",
+  texture: "/textures/project/project6.mp4",
+  logo: "/assets/project-logo6.png",
+  logoStyle: {
+      backgroundColor: "#13202F",
+      border: "0.2px solid #17293E",
+      boxShadow: "0px 0px 60px 0px #2F6DB54D",
+    },
+    spotlight: "/assets/spotlight2.png",
+  tags: [
+    {
+      id: 1,
+      name: "React.js",
+      path: "/assets/react.svg",
+    },
+    {
+      id: 2,
+      name: "TailwindCSS",
+      path: "/assets/tailwindcss.png",
+    },
+    {
+      id: 3,
+      name: "Vite",
+      path: "/assets/vite.svg",
+    },
+    {
+      id: 4,
+      name: "GSAP",
+      path: "/assets/gsap.png",
+    },
+  ],
+},
+
+  {
     title: "Moodflix - Real-Time Movie Explorer",
     desc: "Moodflix is a powerful entertainment platform that transforms the way users discover movies in real time. Built on the OMDb API, it delivers smooth search experiences alongside rich film previews with trailer support.",
     subdesc:
